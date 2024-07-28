@@ -28,10 +28,9 @@ export default function App() {
                         containerStyles="w-full mt-12"
                     />
 
-                    <View className="mt-7 justify-center">
-                        <Text className="text-base text-primary-500 font-rregular text-center">Already have an account? {' '}
-                        <Link href='/sign-in' className="text-lg text-accent-600 font-rmedium">Log in</Link>
-                        </Text>
+                    <View className="pt-10 justify-center items-center flex-row gap-2">
+                        <Text className="text-base text-primary-500 font-rregular text-center">Already have an account?</Text>
+                        <Link href='/sign-in' className='text-[17px] text-accent-600 font-rbold'>Log in</Link>
                     </View>
                 </View>
             </ScrollView>
